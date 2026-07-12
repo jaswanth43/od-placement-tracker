@@ -8,6 +8,12 @@ class PlacementRequestCreate(BaseModel):
     session: str
     round_name: str
     remarks: str | None = None
+class PlacementRequestUpdate(BaseModel):
+    date: date
+    company_name: str
+    session: str
+    round_name: str
+    remarks: str | None = None
 
 
 class PlacementRequestResponse(PlacementRequestCreate):
