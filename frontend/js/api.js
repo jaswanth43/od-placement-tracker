@@ -1,4 +1,4 @@
-const BASE_URL = "https://od-placement-tracker.onrender.com/placement";
+const BASE_URL = "https://od-placement-tracker.onrender.com/placement/";
 
 /**
  * Get all placement requests
