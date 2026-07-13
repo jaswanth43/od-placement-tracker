@@ -1,4 +1,4 @@
-const BASE_URL = "http://127.0.0.1:8000/placement/";
+const BASE_URL = "https://od-placement-tracker.onrender.com";
 
 /**
  * Get all placement requests
